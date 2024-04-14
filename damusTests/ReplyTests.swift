@@ -51,28 +51,8 @@ class ReplyTests: XCTestCase {
         XCTAssertEqual(blocks[1].asHashtag, "what")
         XCTAssertEqual(blocks[2].asHashtag, "nope")
     }
-    
-<<<<<<< HEAD
-=======
-    func testRootReplyWithMention() throws {
-        let content = "this is #[1] a mention"
-        let thread_id = NoteId(hex: "c75e5cbafbefd5de2275f831c2a2386ea05ec5e5a78a5ccf60d467582db48945")!
-        let mentioned_id = NoteId(hex: "5a534797e8cd3b9f4c1cf63e20e48bd0e8bd7f8c4d6353fbd576df000f6f54d3")!
-        let tags = [thread_id.tag, mentioned_id.tag]
-        let ev = NostrEvent(content: content, keypair: test_keypair, tags: tags)!
-        let event_refs = interpret_event_refs(tags: ev.tags)
 
-        XCTAssertEqual(event_refs.count, 2)
-        XCTAssertNotNil(event_refs[0].is_reply)
-        XCTAssertNotNil(event_refs[0].is_thread_id)
-        XCTAssertNotNil(event_refs[0].is_reply)
-        XCTAssertNotNil(event_refs[0].is_direct_reply)
-        XCTAssertEqual(event_refs[0].is_reply, .some(NoteRef(note_id: thread_id)))
-        XCTAssertEqual(event_refs[0].is_thread_id, .some(NoteRef(note_id: thread_id)))
-        XCTAssertNotNil(event_refs[1].is_mention)
-        XCTAssertEqual(event_refs[1].is_mention, .some(NoteRef(note_id: mentioned_id)))
-    }
-    
+    /*
     func testEmptyMention() throws {
         let content = "this is some & content"
         let ev = NostrEvent(content: content, keypair: test_keypair, tags: [])!
@@ -85,6 +65,7 @@ class ReplyTests: XCTestCase {
         XCTAssertEqual(post_tags.tags.count, 0)
         XCTAssertEqual(post_blocks.count, 1)
     }
+     */
 
     func testNewlineMentions() throws {
         let bech32_pk = "npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s"

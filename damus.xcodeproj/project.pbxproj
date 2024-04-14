@@ -205,6 +205,8 @@
 		4C75EFB728049D990006080F /* RelayPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75EFB628049D990006080F /* RelayPool.swift */; };
 		4C75EFB92804A2740006080F /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75EFB82804A2740006080F /* EventView.swift */; };
 		4C75EFBB2804A34C0006080F /* ProofOfWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75EFBA2804A34C0006080F /* ProofOfWork.swift */; };
+		4C79A6DC2BC07FC6007B2D87 /* QueryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79A6DB2BC07FC6007B2D87 /* QueryResult.swift */; };
+		4C79A6DD2BC07FC6007B2D87 /* QueryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C79A6DB2BC07FC6007B2D87 /* QueryResult.swift */; };
 		4C7D09592A05BEAD00943473 /* KeyboardVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7D09582A05BEAD00943473 /* KeyboardVisible.swift */; };
 		4C7D095F2A098C5D00943473 /* ConnectWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7D095C2A098C5D00943473 /* ConnectWalletView.swift */; };
 		4C7D09602A098C5D00943473 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7D095D2A098C5D00943473 /* WalletView.swift */; };
@@ -590,7 +592,6 @@
 		D7CBD1D62B8D509800BFD889 /* DamusPurpleImpendingExpirationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CBD1D52B8D509800BFD889 /* DamusPurpleImpendingExpirationTests.swift */; };
 		D7CCFC072B05833200323D86 /* NdbNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C90548A2A6AEDEE00811EEC /* NdbNote.swift */; };
 		D7CCFC082B05834500323D86 /* NoteId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC14FF42A740BB7007AEB17 /* NoteId.swift */; };
-		D7CCFC0B2B0585EA00323D86 /* nostrdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9FBB82A6B3B26007E485C /* nostrdb.c */; settings = {COMPILER_FLAGS = "-w"; }; };
 		D7CCFC0F2B0587F600323D86 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C285C8B28398BC6008A31F1 /* Keys.swift */; };
 		D7CCFC102B05880F00323D86 /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B7BF12A71B6540049DEE7 /* Id.swift */; };
 		D7CCFC112B05884E00323D86 /* AsciiCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D5C9C2A6B2CB40024563C /* AsciiCharacter.swift */; };
@@ -1092,6 +1093,7 @@
 		4C78EFD82A707C4D007E8197 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
 		4C78EFD92A707C4D007E8197 /* secp256k1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
 		4C78EFDA2A707C67007E8197 /* secp256k1_extrakeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1_extrakeys.h; sourceTree = "<group>"; };
+		4C79A6DB2BC07FC6007B2D87 /* QueryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryResult.swift; sourceTree = "<group>"; };
 		4C7D09582A05BEAD00943473 /* KeyboardVisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardVisible.swift; sourceTree = "<group>"; };
 		4C7D095C2A098C5D00943473 /* ConnectWalletView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectWalletView.swift; sourceTree = "<group>"; };
 		4C7D095D2A098C5D00943473 /* WalletView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
@@ -1157,6 +1159,7 @@
 		4CAAD8AF29888AD200060CEA /* RelayConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelayConfigView.swift; sourceTree = "<group>"; };
 		4CACA9D4280C31E100D9BBE8 /* ReplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyView.swift; sourceTree = "<group>"; };
 		4CACA9DB280C38C000D9BBE8 /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
+		4CB412802C80753E008DE044 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
 		4CB55EF4295E679D007FD187 /* UserRelaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRelaysView.swift; sourceTree = "<group>"; };
 		4CB8838529656C8B00DC99E7 /* NIP05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIP05.swift; sourceTree = "<group>"; };
 		4CB88388296AF99A00DC99E7 /* EventDetailBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailBar.swift; sourceTree = "<group>"; };
@@ -1769,40 +1772,6 @@
 			path = NIP10;
 			sourceTree = "<group>";
 		};
-		4C478E2A2A9935D300489948 /* bindings */ = {
-			isa = PBXGroup;
-			children = (
-				4C478E2B2A9935D300489948 /* swift */,
-				4C478E2D2A9935D300489948 /* c */,
-			);
-			path = bindings;
-			sourceTree = "<group>";
-		};
-		4C478E2B2A9935D300489948 /* swift */ = {
-			isa = PBXGroup;
-			children = (
-				4C478E2C2A9935D300489948 /* NdbProfile.swift */,
-			);
-			path = swift;
-			sourceTree = "<group>";
-		};
-		4C478E2D2A9935D300489948 /* c */ = {
-			isa = PBXGroup;
-			children = (
-				4C478E2E2A9935D300489948 /* profile_json_parser.h */,
-				4C478E2F2A9935D300489948 /* profile_reader.h */,
-				4C478E302A9935D300489948 /* meta_json_parser.h */,
-				4C478E312A9935D300489948 /* profile_builder.h */,
-				4C478E322A9935D300489948 /* meta_builder.h */,
-				4C478E332A9935D300489948 /* profile_verifier.h */,
-				4C478E352A9935D300489948 /* meta_reader.h */,
-				4C478E362A9935D300489948 /* flatbuffers_common_reader.h */,
-				4C478E372A9935D300489948 /* meta_verifier.h */,
-				4C478E382A9935D300489948 /* flatbuffers_common_builder.h */,
-			);
-			path = c;
-			sourceTree = "<group>";
-		};
 		4C47928D2A9939BD00489948 /* flatcc */ = {
 			isa = PBXGroup;
 			children = (
@@ -2186,6 +2155,7 @@
 		4C9054862A6AEB4500811EEC /* nostrdb */ = {
 			isa = PBXGroup;
 			children = (
+				4CB412802C80753E008DE044 /* Untitled.swift */,
 				4C15224A2B8D499F007CDC17 /* parser.h */,
 				4CF47FDC2B631C0100F2B2C0 /* src */,
 				4C47928D2A9939BD00489948 /* flatcc */,
@@ -2208,6 +2178,7 @@
 				D798D2272B085CDA00234419 /* NdbNote+.swift */,
 				4CF480562B633F2600F2B2C0 /* NdbBlocksIterator.swift */,
 				4CF480582B633F3800F2B2C0 /* NdbBlock.swift */,
+				4C79A6DB2BC07FC6007B2D87 /* QueryResult.swift */,
 			);
 			path = nostrdb;
 			sourceTree = "<group>";
@@ -3143,7 +3114,6 @@
 			files = (
 				4C1D4FB42A7967990024F453 /* build-git-hash.txt in Resources */,
 				D7FB14222BE5970000398331 /* PrivacyInfo.xcprivacy in Resources */,
-				4CF480432B631C0100F2B2C0 /* .dir in Resources */,
 				3ACB685F297633BC00C46468 /* Localizable.strings in Resources */,
 				4CE6DEEE27F7A08200C66700 /* Preview Assets.xcassets in Resources */,
 				3ACB685C297633BC00C46468 /* InfoPlist.strings in Resources */,
@@ -3300,7 +3270,6 @@
 				4CB883B6297730E400DC99E7 /* LNUrls.swift in Sources */,
 				4C7FF7D52823313F009601DB /* Mentions.swift in Sources */,
 				4CF4803D2B631C0100F2B2C0 /* content_parser.c in Sources */,
-				BA4AB0AE2A63B9270070A32A /* AddEmojiView.swift in Sources */,
 				4C32B94D2A9AD44700DC3548 /* Offset.swift in Sources */,
 				4C633350283D40E500B1C9C3 /* HomeModel.swift in Sources */,
 				4C987B57283FD07F0042CE38 /* FollowersModel.swift in Sources */,
@@ -3482,6 +3451,7 @@
 				4C363A8828236948006E126D /* BlocksView.swift in Sources */,
 				4C06670628FCB08600038D2A /* ImageCarousel.swift in Sources */,
 				3A23838E2A297DD200E5AA2E /* ZapButtonModel.swift in Sources */,
+				4C79A6DC2BC07FC6007B2D87 /* QueryResult.swift in Sources */,
 				F71694F82A6983AF001F4053 /* GrayGradient.swift in Sources */,
 				4C1D4FB12A7958E60024F453 /* VersionInfo.swift in Sources */,
 				D7FF94002AC7AC5300FD969D /* RelayURL.swift in Sources */,
@@ -3497,7 +3467,6 @@
 				5CC8529F2BD744F60039FFC5 /* HighlightView.swift in Sources */,
 				BA37598D2ABCCE500018D73B /* PhotoCaptureProcessor.swift in Sources */,
 				5CC8529D2BD741CD0039FFC5 /* HighlightEvent.swift in Sources */,
-				4C9146FD2A2A87C200DDEA40 /* wasm.c in Sources */,
 				4C75EFAF28049D350006080F /* NostrFilter.swift in Sources */,
 				4CF480422B631C0100F2B2C0 /* NdbProfile.swift in Sources */,
 				4CA9276C2A2910D10098A105 /* ReplyPart.swift in Sources */,
@@ -3522,7 +3491,6 @@
 				4C19AE512A5CEF7C00C90DB7 /* NostrScript.swift in Sources */,
 				4C32B95E2A9AD44700DC3548 /* FlatBufferObject.swift in Sources */,
 				D783A63F2AD4E53D00658DDA /* SuggestedHashtagsView.swift in Sources */,
-				4CB88393296F798300DC99E7 /* ReactionsModel.swift in Sources */,
 				5C42E78C29DB76D90086AAC1 /* EmptyUserSearchView.swift in Sources */,
 				4CB88396296F7F8B00DC99E7 /* ReactionView.swift in Sources */,
 				4CF480552B631C4F00F2B2C0 /* wasm.c in Sources */,
@@ -3860,6 +3828,7 @@
 				D798D2222B08598A00234419 /* ReferencedId.swift in Sources */,
 				D7CE1B492B0BE729002EDAD4 /* DisplayName.swift in Sources */,
 				D7CE1B192B0BE132002EDAD4 /* builder.c in Sources */,
+				4C79A6DD2BC07FC6007B2D87 /* QueryResult.swift in Sources */,
 				D7EDED1F2B11797D0018B19C /* LongformEvent.swift in Sources */,
 				D7CCFC122B05886D00323D86 /* IdType.swift in Sources */,
 				D7CE1B312B0BE69D002EDAD4 /* Ndb.swift in Sources */,
@@ -4085,6 +4054,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(PROJECT_DIR)/nostrdb/ccan",
+					"$(PROJECT_DIR)/nostrdb/src/bolt11",
+					"$(PROJECT_DIR)",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -4191,11 +4165,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/nostrdb/src/bolt11",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jb55.damus2;
 				PRODUCT_NAME = "$(TARGET_NAME)";

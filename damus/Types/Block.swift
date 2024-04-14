@@ -35,9 +35,9 @@ enum Block: Equatable {
     case relay(String)
 }
 
-struct Blocks: Equatable {
-    let words: Int
-    let blocks: [Block]
+struct Blocks {
+    let buffer: [UInt8]
+    let blocks: NdbBlocks
 }
 
 extension ndb_str_block {
